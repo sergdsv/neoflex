@@ -3,47 +3,21 @@
 		<h2 class="in-focus__title">Сегодня в фокусе</h2>
 
 		<div class="in-focus__cards">
-			<a class="in-focus__card fcard1" >
-				<p class="in-focus__text">
-					Эффективные цифровые каналы и бизнес-процессы
-				</p>
-				<a href="#" class="in-focus__link">Узнать</a>
+			
+			<InfocusCard class="animated fadeInLeft"
+				:infocustext="'Эффективные цифровые каналы и бизнес-процессы'"
+				:fcard="'fcard1'"
+			/>
+			<InfocusCard class="animated fadeInDown"
+				:infocustext="'Анализ и принятие решений на основе AI и Big Data'"
+				:fcard="'fcard2'"
+			/>
+			<InfocusCard class="animated fadeInRight"
+				:infocustext="'Соответствие требованиям регулятора'"
+				:fcard="'fcard3'"
+			/>
 
-				<a href="#" class="in-focus__link-circle">
-					<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="28" cy="28" r="27" stroke="white" stroke-width="2"/>
-						<path d="M41.7071 28.7071C42.0976 28.3166 42.0976 27.6834 41.7071 27.2929L35.3431 20.9289C34.9526 20.5384 34.3195 20.5384 33.9289 20.9289C33.5384 21.3195 33.5384 21.9526 33.9289 22.3431L39.5858 28L33.9289 33.6569C33.5384 34.0474 33.5384 34.6805 33.9289 35.0711C34.3195 35.4616 34.9526 35.4616 35.3431 35.0711L41.7071 28.7071ZM15 29H41V27H15V29Z" fill="white"/>
-					</svg>
-				</a>
-			</a>
 
-			<a class="in-focus__card fcard2">
-				<p class="in-focus__text">
-					Анализ и принятие решений на основе AI и Big Data
-				</p>
-				<a href="#" class="in-focus__link">Узнать</a>
-
-				<a href="#" class="in-focus__link-circle">
-					<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="28" cy="28" r="27" stroke="white" stroke-width="2"/>
-						<path d="M41.7071 28.7071C42.0976 28.3166 42.0976 27.6834 41.7071 27.2929L35.3431 20.9289C34.9526 20.5384 34.3195 20.5384 33.9289 20.9289C33.5384 21.3195 33.5384 21.9526 33.9289 22.3431L39.5858 28L33.9289 33.6569C33.5384 34.0474 33.5384 34.6805 33.9289 35.0711C34.3195 35.4616 34.9526 35.4616 35.3431 35.0711L41.7071 28.7071ZM15 29H41V27H15V29Z" fill="white"/>
-					</svg>
-				</a>
-			</a>
-
-			<div class="in-focus__card fcard3">
-				<p class="in-focus__text">
-					Соответствие требованиям регулятора
-				</p>
-				<a href="#" class="in-focus__link">Узнать</a>
-
-				<a href="#" class="in-focus__link-circle">
-					<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="28" cy="28" r="27" stroke="white" stroke-width="2"/>
-						<path d="M41.7071 28.7071C42.0976 28.3166 42.0976 27.6834 41.7071 27.2929L35.3431 20.9289C34.9526 20.5384 34.3195 20.5384 33.9289 20.9289C33.5384 21.3195 33.5384 21.9526 33.9289 22.3431L39.5858 28L33.9289 33.6569C33.5384 34.0474 33.5384 34.6805 33.9289 35.0711C34.3195 35.4616 34.9526 35.4616 35.3431 35.0711L41.7071 28.7071ZM15 29H41V27H15V29Z" fill="white"/>
-					</svg>
-				</a>
-			</div>
 		</div>
 	</section>
 </template>
