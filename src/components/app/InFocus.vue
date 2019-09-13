@@ -23,6 +23,12 @@
 </template>
 
 <script>
+import InfocusCard from '@/components/app/InfocusCard.vue'
+export default {
+	components: {
+		InfocusCard
+	},
+}
 
 </script>
 
